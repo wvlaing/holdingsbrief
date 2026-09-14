@@ -3,7 +3,7 @@
 import pandas as pd
 
 from holdingsbrief.helpers.fetch_stock_data import get_yf_data
-from holdingsbrief.helpers.workbook_info import Workbook, sheet_as_list
+from holdingsbrief.watchlist.google_sheets import Workbook, sheet_as_list
 
 
 def get_settings(workbook: Workbook, verbose: bool = False) -> list[int]:
